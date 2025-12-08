@@ -16,7 +16,7 @@ function showModal() {
   document.getElementById("myModal").style.display = "flex";
 }
 function nextEscapeRoomPage() {
-  window.location.href = "https://5q6xnx.csb.app/";
+  window.location.href = "https://cletoa.github.io/EscapeRoomPT2/";
 }
 
 function hideModal() {
@@ -285,3 +285,4 @@ function checkMatch() {
     document.getElementById("night").volume = 0.4;
   }
 }
+
