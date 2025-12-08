@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>The Doors of DOOM</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+   
+  <body>
+    </div>
+    <div class="wall2"></div>
+    <div class="door2">
+      <div class="door" id="escape" onclick="" class="">
+        <div class="row2"></div>
+        <div class="row2">
+          <div class="box center-content">
+            <img
+              src="Images/lock.png"
+              onclick="showModal()"
+              class="clickable size_lock"
+              id="lock"
+            />
+          </div>
+        </div>
+        <div class="row2"></div>
+      </div>
+      <div class="wall">
+        <div class="row">
+          <div class="note center-content">
+            <img
+              src="Images/note.png"
+              onclick="showModal2()"
+              class="clickable size_note"
+            />
+          </div>
+        </div>
+        <div class="row center-content">
+          <div class="note center-content">
+            <img
+              src="Images/note.png"
+              onclick="showModal3()"
+              class="clickable size_note"
+            />
+          </div>
+        </div>
+        <div class="row"></div>
+      </div>
+      <div class="door" id="door2" onclick="nextEscapeRoomPage()"></div>
+    </div>
+    <div class="modal center-content" id="myModal">
+      <span class="close clickable" onclick="hideModal()">&times;</span>
+      <div class="modal-body" class="text-align: center;">
+        <div class="row3">
+          <div class="box2 light-grey center-content">
+            <img
+              src="Letters/Gothic_L.png"
+              onclick="lockF()"
+              id="F"
+              class="clickable"
+            />
+          </div>
+          <div class="box2 light-grey center-content">
+            <img
+              src="Letters/Gothic_A.png"
+              id="R"
+              onclick="lockR()"
+              class="clickable"
+            />
+          </div>
+          <div class="box2 light-grey center-content">
+            <img
+              src="Letters/Gothic_F.png"
+              id="E"
+              onclick="lockE()"
+              class="clickable"
+            />
+          </div>
+          <div class="box2 light-grey center-content">
+            <img
+              src="Letters/Gothic_R.png"
+              id="E3"
+              onclick="lockE3()"
+              class="clickable"
+            />
+          </div>
+        </div>
+        <div class="row3 green">
+          <div class="box light-grey center-content">
+            <img
+              src="Letters/Gothic_S.png"
+              id="A"
+              onclick="lockA()"
+              class="clickable"
+            />
+          </div>
+          <div class="box light-grey center-content">
+            <img
+              src="Letters/Gothic_E.png"
+              id="T"
+              onclick="lockT()"
+              class="clickable"
+            />
+          </div>
+        </div>
+        <div class="row3 gold">
+          <div class="box2 light-grey center-content">
+            <img
+              src="Letters/Gothic_A.png"
+              id="L"
+              onclick="lockL()"
+              class="clickable"
+            />
+          </div>
+          <div class="box2 light-grey center-content">
+            <img
+              src="Letters/Gothic_T.png"
+              id="A3"
+              onclick="lockA3()"
+              class="clickable"
+            />
+          </div>
+          <div class="box2 light-grey center-content">
+            <img
+              src="Letters/Gothic_L.png"
+              id="S"
+              onclick="lockS()"
+              class="clickable"
+            />
+          </div>
+          <div class="box2 light-grey center-content">
+            <img
+              src="Letters/Gothic_S.png"
+              id="T3"
+              onclick="lockT3()"
+              class="clickable"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal center-content" id="myModal2">
+      <span class="close clickable" onclick="hideModal2()">&times;</span>
+      <div class="modal-body" class="text-align: center;">
+        <h1>
+          I can hear the night and wolves howling from the locked door, but
+          something calls me to the unlocked door. The screams of the damned. It
+          calls my name, willingly. What about the reward? I ask. That lock, a
+          letter lock, with some maniacal grocery list.
+      </div>
+    </div>
+    <div class="modal center-content" id="myModal3">
+      <span class="close clickable" onclick="hideModal3()">&times;</span>
+      <div class="modal-body" class="text-align: center;">
+        <h1>Ditren's Maniacal Grocery List</h1>
+        <h2>1.Febreze</h2>
+        <h2>2.Rope</h2>
+        <h2>3.Earbuds</h2>
+        <h2>4.Electric saw</h2>
+        <h2>5.Axe</h2>
+        <h2>6.Trash bags</h2>
+        <h2>7.Lighter fluid</h2>
+        <h2>8.Acid</h2>
+        <h2>9.Shovel</h2>
+        <h2>10.Trash bags</h2>
+      </div>
+    </div>
+
+    <div class="modaltext center-content" id="textmodal">
+      <span class="closetext clickable" onclick="hidetextModal()">&times;</span>
+      <div class="modal-bodytext center-content" class="text-align: center;">
+        <h2>
+          God this place is ******* weird. Gotta find some
+          way out of here. Two doors, one with a lock. Gotta
+          wisely choose between one or the other. Do I really need 
+          that money? I would be suprised if they were still
+          alive.
+        </h2>
+      </div>
+    </div>
+
+    <div class="modal2 center-content" id="exit">
+      <span class="">&times;</span>
+      <div class="modal-body2 center-content" class="text-align: center;">
+        <h2>
+          As you quickly open the door and slam it behind you. You step out to the
+          night sky ahead of you with the cold breeze running through your hair
+          and the drizzle of the rain. The reward doesn't matter anymore, 
+          you made it out with your life. That's all that matters.
+        </h2>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+  <audio src="Audio/scream.mp3" id="scream"></audio>
+  <audio src="Audio/Crumple2.mp3" id="paper"></audio>
+  <audio src="Audio/Lock.mp3" id="lock2"></audio>
+  <audio src="Audio/Ambience.mp3" id="night"></audio>
+  <audio src="Audio/TurnLock.mp3" id="turn"></audio>
+  <audio src="Audio/D64.mp3" id="d64"></audio>
+</html>
