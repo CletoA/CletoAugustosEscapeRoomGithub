@@ -1,2 +1,2 @@
 # Ditren'sMansionFINAL_LVL
-Escape the Manaical Mansion of Ditren. Two doors, choose wisely.
+Escape the Manaical Mansion of Ditren who's being putting you through hell and back. Giving you possibly the worst day of your entire life. Two doors, planted by the manaical man himself, choose wisely...
